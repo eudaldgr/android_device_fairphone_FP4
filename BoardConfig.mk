@@ -93,6 +93,9 @@ TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
 
+# Crypto
+BOARD_USES_QCOM_FBE_DECRYPTION := true
+
 # TWRP specific build flags
 TW_THEME := portrait_hdpi
 TARGET_RECOVERY_QCOM_RTC_FIX := true

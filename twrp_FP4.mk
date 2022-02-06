@@ -46,7 +46,9 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.0-impl-mock \
-    fastbootd
+    fastbootd \
+    qcom_decrypt \
+    qcom_decrypt_fbe
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
