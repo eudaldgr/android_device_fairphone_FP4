@@ -105,7 +105,7 @@ PRODUCT_ENFORCE_VINTF_MANIFEST := true
 VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # Extras
-TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # TWRP specific build flags
 TW_THEME := portrait_hdpi
